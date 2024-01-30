@@ -41,7 +41,7 @@ def benchmark_sorting_algorithm(sorting_function, input):
     
     return end_time - start_time
 
-input_sizes = [5, 10, 20, 50, 100, 200, 500, 1000]  # Add more as needed
+input_sizes = [5, 10, 20, 50, 100, 300, 500, 1000, 5000]  # Add more as needed
 sorting_algorithms = [insertion_sort, selection_sort, bubble_sort]
 algorithm_names = ["Insertion Sort", "Selection Sort", "Bubble Sort"]
 
